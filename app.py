@@ -1,8 +1,10 @@
 import streamlit as st
 import pickle
 import string
-from nltk.corpus import stopwords
 import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
 st.markdown("""
