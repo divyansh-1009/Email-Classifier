@@ -1,3 +1,4 @@
+# run this app using the command: streamlit run app.py
 import streamlit as st
 import pickle
 import string
